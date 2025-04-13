@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Black n White</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Black n White</h1>
+            <p>Clothing</p>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="products.html" class="nav-link active">All Products</a>
+            <div class="nav-icons">
+                <button class="search-btn">
+                    <span class="search-icon">🔍</span>
+                </button>
+                <a href="cart.html" class="cart-btn">
+                    <span class="cart-icon">🛒</span>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="products-page">
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/tshirt1.png" alt="Elite Hoodie">
+                    <div class="quick-add">
+                        <button class="quick-add-btn" data-name="Elite Hoodie" data-price="59.99">Quick Add</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Elite Hoodie</h3>
+                    <p class="price">$59.99</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/tshirt2.png" alt="Elite T-Shirt">
+                    <div class="quick-add">
+                        <button class="quick-add-btn" data-name="Elite T-Shirt" data-price="29.99">Quick Add</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Elite T-Shirt</h3>
+                    <p class="price">$29.99</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/tshirt3.png" alt="Elite Sweatshirt">
+                    <div class="quick-add">
+                        <button class="quick-add-btn" data-name="Elite Sweatshirt" data-price="49.99">Quick Add</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Elite Sweatshirt</h3>
+                    <p class="price">$49.99</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" placeholder="Search products..." class="search-input">
+            <button class="close-search">×</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
